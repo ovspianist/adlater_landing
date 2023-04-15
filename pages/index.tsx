@@ -37,19 +37,26 @@ export default function Home() {
           <p
             className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
           >
-            If you are given the password, please click here to watch.
+            If you are given a password, please click here to watch.
           </p>
         </a>
 
+
       </div>
-      <div className="flex flex-row mx-16">
+      <div className="flex flex-col justify-center items-center">
         <Image
         className="relative dark:invert"
           src="/icon.png"
           alt="AdLater Logo"
           width={50}
           height={37}
-        />
+        />        
+        <p
+            className={`${inter.className} mt-5 max-w-[30ch] text-sm opacity-50`}
+          >
+            General Inquiry: info@adlater.co.uk
+          </p>
+
       </div>
     </main>
   )
