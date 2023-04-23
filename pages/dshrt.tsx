@@ -21,7 +21,7 @@ function showreel() {
                     src="https://player.vimeo.com/video/689902544?h=1c8590a277"
                     width="100%"
                     height="100%"
-                    frameborder="0"
+                    frameBorder="0"
                     allow="autoplay; fullscreen; picture-in-picture"
                     allowfullscreen
                 ></iframe>
