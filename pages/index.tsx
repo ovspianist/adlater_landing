@@ -15,7 +15,7 @@ export default function Home() {
 
             <div className="min-h-[100vh]">
                 <Navbar />
-                <div className="flex flex-col justify-center items-center my-12 gap-3 border-0 border-red-500">
+                <div className="flex flex-col justify-center items-center my-12 gap-3 border-0 border-red-500 select-none">
                     <div className="text-[80px] lg:text-[100px] font-bold tracking-tighter drop-shadow-xl shadow-neutral-950">
                         Ad Later
                     </div>
@@ -28,7 +28,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="flex flex-col items-center gap-2 mt-20 mb-20">
+                <div className="flex flex-col items-center gap-2 mt-20 mb-20 select-none">
                     <p className="font-light drop-shadow-sm">Coming Soon</p>
                     <a href="https://forms.gle/bbr2mkbvTcRHP5WD7" target="_blank">
                     <button className="text-xl py-4 px-8 border-t-[1px] border-t-neutral-400 bg-gradient-to-r from-red-500 to-indigo-700 rounded-xl shadow-xl shadow-[rgba(0,0,0,0.2)]">
