@@ -1,63 +1,47 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import Head from "next/head";
+import Image from "next/image";
+import { Inter, Lexend } from "next/font/google";
+import Navbar from "../components/Navbar";
+import Divider from "../components/Divider";
+import ContactCard from "../components/ContactCard";
 
 export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between pt-24 p-6">
+    return (
+        <div>
+            <Head>
+                <title> Ad Later </title>
+                <link rel="shortcut icon" href="/favicon.ico" />
+            </Head>
 
-      <div className="relative sm:mt-40 lg:mt-50 flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]">
-      <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/adlater.svg"
-          alt="AdLater Logo"
-          width={300}
-          height={37}
-          priority
-        />
-      </div>
-      <div>
-        <p className="font-serif text-2xl relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:text-gray-200 ">Coming soon ... </p>
-      </div>
+            <div className="min-h-[100vh]">
+                <Navbar />
+                <div className="flex flex-col justify-center items-center my-12 gap-3 border-0 border-red-500 select-none">
+                    <div className="text-[80px] lg:text-[100px] font-bold tracking-tighter drop-shadow-xl shadow-neutral-950">
+                        Ad Later
+                    </div>
+                    <div
+                        className="text-[18px] font-medium text-neutral-400 w-[500px] lg:w-[800px] 
+                        text-center drop-shadow-lg shadow-neutral-950 lg:text-[32px] lg:w-6/12"
+                    >
+                        One stop platform for on-demand, targeted, affordable brand placement in
+                        film and TV.
+                    </div>
+                </div>
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="/"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
-            Showreel{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p
-            className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
-          >
-            If you are given a password, please click here to watch.
-          </p>
-        </a>
-
-
-      </div>
-      <div className="flex flex-col justify-center items-center">
-        <Image
-        className="relative dark:invert"
-          src="/icon.png"
-          alt="AdLater Logo"
-          width={50}
-          height={37}
-        />        
-        <p
-            className={`${inter.className} mt-5 max-w-[30ch] text-sm opacity-50`}
-          >
-            General Inquiry: info@adlater.co.uk
-          </p>
-
-      </div>
-    </main>
-  )
+                <div className="flex flex-col items-center gap-2 mt-20 mb-20 select-none">
+                    <p className="font-light drop-shadow-sm">Coming Soon</p>
+                    <a href="https://forms.gle/bbr2mkbvTcRHP5WD7" target="_blank">
+                    <button className="text-xl py-4 px-8 border-t-[1px] border-t-neutral-400 bg-gradient-to-r from-red-500 to-indigo-700 rounded-xl shadow-xl shadow-[rgba(0,0,0,0.2)]">
+                        Join our mailing list
+                    </button>
+                    </a>
+                    <p className="font-light drop-shadow-sm">
+                        to receive updates, news and other information.
+                    </p>
+                </div>
+                <Divider />
+                <ContactCard />
+            </div>
+        </div>
+    );
 }
