@@ -23,7 +23,7 @@ function showreel() {
                     height="100%"
                     frameBorder="0"
                     allow="autoplay; fullscreen; picture-in-picture"
-                    allowfullscreen
+                    allowFullScreen
                 ></iframe>
               </div>
               <div className="flex flex-col w-full items-center">
