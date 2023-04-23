@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root{
-  background-color: rgb(16, 16, 16);
-  background-image: url('/bg.png');
+  background-color: rgb(12, 12, 12);
+  background-image: url('/bg_grain.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
