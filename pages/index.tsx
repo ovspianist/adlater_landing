@@ -22,7 +22,7 @@ export default function Home() {
                     </div>
                     <div
                         className="text-md sm:text-[18px] font-medium text-neutral-400 
-                        w-8/12 sm:w-10/12
+                        w-10/12
                         text-center drop-shadow-lg shadow-neutral-950 
                         lg:text-[32px] lg:w-6/12"
                     >
