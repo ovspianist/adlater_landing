@@ -26,7 +26,7 @@ function showreel() {
                     allowFullScreen
                 ></iframe>
               </div>
-              <div className="flex flex-col w-full items-center">
+              <div className="flex flex-col w-full items-center select-none">
                 <p className="text-md font-light lg:text-lg py-5 text-neutral-400 ">Password is provided with pitch deck or available upon request.</p>
               </div>
               <Divider />
