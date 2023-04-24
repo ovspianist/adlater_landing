@@ -21,7 +21,7 @@ export default function Home() {
                         Ad Later
                     </div>
                     <div
-                        className="text-md sm:text-[18px] font-medium text-neutral-400 
+                        className="text-md sm:text-[24px] font-medium text-neutral-400 
                         w-10/12
                         text-center drop-shadow-lg shadow-neutral-950 
                         lg:text-[32px] lg:w-6/12"
