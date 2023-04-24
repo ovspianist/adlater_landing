@@ -16,7 +16,7 @@ export default function Home() {
             <div className="min-h-[100vh]">
                 <Navbar />
                 <div className="flex flex-col justify-center items-center my-12 gap-3 border-0 border-red-500 select-none">
-                    <div className="text-[36px] sm:text-[80px] lg:text-[100px] 
+                    <div className="text-[48px] sm:text-[80px] lg:text-[100px] 
                     font-bold tracking-tighter drop-shadow-xl shadow-neutral-950">
                         Ad Later
                     </div>
