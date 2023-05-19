@@ -11,8 +11,13 @@ function Navbar() {
             <img src="/icon.png" className="w-12 h-12 invert"></img>
             </Link>
         </div>
-        <div>
-          <Link href="/" className="text-lg font-medium hover:font-bold hover:bg-gradient-to-r from-red-500 to-indigo-700 px-3 py-2 rounded-lg " >Home</Link>
+        <div className = "flex flex-row w-auto gap-8 ">
+          <div>
+            <Link href="/tchdmf" className="text-lg font-medium hover:font-bold hover:bg-gradient-to-r from-red-500 to-indigo-700 px-3 py-2 rounded-lg " >Showreel</Link>
+          </div>
+          <div>
+            <Link href="/" className="text-lg font-medium hover:font-bold hover:bg-gradient-to-r from-red-500 to-indigo-700 px-3 py-2 rounded-lg " >Home</Link>
+          </div>
         </div>
       </div>
     </div>
