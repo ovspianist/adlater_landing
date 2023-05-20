@@ -8,7 +8,7 @@ function Navbar() {
       <div className="flex flex-row w-full lg:w-[1200px] max-w-[90vw] justify-between items-center px-1 py-2 border-0 border-red-500 ">
         <div>
           <Link href="/" className="flex flex-row gap-3 items-center text-xl font-bold cursor-pointer">
-            <img src="/icon.png" className="w-12 h-12 invert"></img>
+            <img src="/al_logo_nav.png" className="h-10 lg:h-16 "></img>
             </Link>
         </div>
         <div className = "flex flex-row w-auto gap-8 ">

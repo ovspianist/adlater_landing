@@ -10,7 +10,8 @@ export default function Home() {
         <div>
             <Head>
                 <title> Ad Later </title>
-                <link rel="shortcut icon" href="/favicon.ico" />
+                {/* <link rel="shortcut icon" href="/al_logo_black.png" /> */}
+                <link rel="icon" type="image/png" href="/favicon.png" />
             </Head>
 
             <div className="min-h-[100vh]">

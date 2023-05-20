@@ -9,8 +9,8 @@ function showreel() {
     return (
         <div>
             <Head>
-                <title> Showreel </title>
-                <link rel="shortcut icon" href="/favicon.ico" />
+                <title> Ad Later - Showreel </title>
+                <link rel="icon" type="image/png" href="/favicon.png" />
             </Head>
             <div className="min-h-[100vh]">
                 <Navbar />
